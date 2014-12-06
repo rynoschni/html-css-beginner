@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>HTML + CSS Workshop</title>
+
+	<meta name="description" content="Introduction to HTML + CSS Workshop">
+	<meta name="author" content="MakerSquare">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/makersquare.css" id="theme">
+	<link rel="icon" href="favicon.ico">
+
+	<!-- For syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+	<script>
+		if( window.location.search.match( /print-pdf/gi ) ) {
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = 'css/print/pdf.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		}
+	</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Introduction -->
+			<div class="slides">
+				<section>
+					<h1>Introduction to <strong>HTML + CSS</strong> Workshop</h1>
+					<p>Presented by Josh Medeski</p>
+					<p><a href="http://j.mp/htxworkshop" target="_blank">http://j.mp/htxworkshop</a></p>
+				</section>
+
+				<section>
+					<img src="images/haaaaaay.gif" alt="Jimmy Fallen saying HAAAAAAY">
+					<h1>Welcome!</h1>
+					<p>Thank you for coming! We are so glad you are interested in learning something new. Today is going to be interesting, simple, and <strong>FUN!</strong></p>
+
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
+
+				<section>
+					<h2>Workshop <strong>Agenda</strong></h2>
+					<p>Here's is what I want you to learn in today's workshop:</p>
+					<ul>
+						<li class="fragment">How to <strong>STRUCTURE</strong> a web page using <strong>HTML</strong></li>
+						<li class="fragment">How to <strong>STYLE</strong> a web page using <strong>CSS</strong></li>
+						<li class="fragment">How to <strong>MANIPULATE</strong> a web page using the <strong> INSPECTOR</strong></li>
+						<li class="fragment">How to <strong>BUILD</strong> a web page <em>quickly</em> with a <strong>FRAMEWORK</strong></li>
+					</ul>
+				</section>
+
+				<section>
+					<img src="images/hand-raise.gif" alt="Guy raising his hand">
+					<h2>Please Ask <strong>Questions</strong></h2>
+					<p>We will be covering a lot of material, so please ask for help if you need help with anything or need clarification.</p>
+				</section>
+
+				<!-- Tools -->
+				<section>
+					<section>
+						<h1>Tools</h1>
+						<p>Before we begin, there are some tools and resources we will need.</p>
+					</section>
+					<section>
+						<img src="images/chrome.jpg" alt="Google Chrome">
+						<h2>Google Chrome</h2>
+						<a href="http://www.google.com/chrome/" target="_blank">http://www.google.com/chrome/</a>
+					</section>
+					<section>
+						<img src="images/sublime-text.jpg" alt="Sublime Text">
+						<h2>Sublime Text</h2>
+						<a href="http://www.sublimetext.com/" target="_blank">http://www.sublimetext.com/</a>
+					</section>
+<!-- 					<section>
+						<img src="images/codepen.jpg" alt="Codepen">
+						<h2>Codepen</h2>
+						<a href="http://codepen.io/" target="_blank">http://codepen.io/</a>
+					</section> -->
+				</section>
+
+				<!-- HTML -->
+				<section>
+					<section>
+						<img src="images/building.gif" alt="animated picture of an old building be built">
+						<h1>HTML</h1>
+						<p><em>Hyper Text Markup Language</em></p>
+					</section>
+					<section>
+					<h2>HTML <strong>Structures</strong> the Web</h2>
+						<p>Just like a newspaper, the web also needs structure (titles, columns, images, etc...).</p>
+						<img src="images/html-newspaper.jpg" alt="Picture of a newspaper and website showing the same content">
+					</section>
+					<section>
+					<h2>Sample of HTML</h2>
+					<img src="images/html-sample.jpg" alt="HTML code sample">
+					</section>
+					<section>
+						<h2>Sample of HTML</h2>
+						<img src="images/html-preview.jpg" alt="Laptop displaying HTML sample">
+					</section>
+					<section>
+						<h2>Elements</h2>
+						<p>HTML uses <strong>elements</strong> to describe the structure of pages</p>
+						<img src="images/html-code.jpg" alt="">
+						<p>An element is composed of a opening tag, content, and a closing tag.</p>
+					</section>
+					<section>
+						<h2>Opening Tag</h2>
+						<img src="images/html-opening-tag.jpg" alt="">
+						<p>The character(s) defines the tags purpose.</p>
+					</section>
+					<section>
+						<h2>Closing Tag</h2>
+						<img src="images/html-closing-tag.jpg" alt="">
+					</section>
+					<section>
+						<h2>Tag Attributes</h2>
+						<img src="images/html-tag-attribute.jpg" alt="">
+						<p>Attributes add extra information to an element. They always appear with the opening tag.</p>
+					</section>
+					<section>
+						<h2>HTML, HEAD, TITLE, BODY</h2>
+						<p>Every web page is structured with the following elements.</p>
+						<img src="images/html-head-title-body.jpg" alt="">
+					</section>
+					<section>
+						<h2><strong>Practice:</strong> Your First Web Page</h2>
+					</section>
+					<section>
+						<p>Open <strong>Sublime Text</strong> and re-create the following content:</p>
+						<img src="images/html-head-title-body.jpg" alt="">
+						<p>When you are done, open the file with <strong>Google Chrome</strong></p>
+					</section>
+					<section>
+						<img src="images/html-congrats.gif" alt="">
+						<h3><strong>Congrats</strong> gold stars for everyone!</h3>
+					</section>
+					<section>
+						<h2><strong>HTML</strong> Summary</h2>
+						<ul>
+							<li class="fragment">HTML creates <strong>structure</strong> for the web (think newspapers)</li>
+							<li class="fragment">HTML is made up of <strong>elements</strong></li>
+							<li class="fragment">HTML <em>elements</em> have an <strong>opening</strong> and <strong>closing tags</strong></li>
+							<li class="fragment">HTML <em>tags</em> can include <strong>attributes</strong></li>
+							<li class="fragment">HTML is made up of <strong>html, head, title, and body</strong> elements</li>
+						</ul>
+					</section>
+
+				</section>
+
+				<!-- CSS -->
+				<section>
+					<section>
+						<img src="images/painting.gif" alt="Pink Panther Painting">
+						<h1>CSS</h1>
+						<p><em>Cascading Style Sheets</em></p>
+					</section>
+					<section>
+						<h2>CSS <strong>Styles</strong> the Web</h2>
+						<p>Just like the toolbar in Microsoft Word, CSS allows you to change the look and feel of a web page.</p>
+						<img src="images/css-word.jpg" alt="">
+					</section>
+					<section>
+						<h2>Sample of CSS</h2>
+						<img src="images/css-sample.jpg" alt="">
+					</section>
+					<section>
+						<h2>Sample of CSS</h2>
+						<img src="images/css-preview.jpg" alt="">
+					</section>
+					<section>
+						<h2>CSS Selectors</h2>
+						<p>CSS associates rules with HTML elements.</p>
+						<img src="images/css-selector.jpg" alt="">
+					</section>
+					<section>
+						<h2>CSS Declarations</h2>
+						<p>The property indicates what aspect you want to change and is specified with the value.</p>
+						<img src="images/css-declarations.jpg" alt="">
+					</section>
+					<section>
+						<h2>CSS Works in Boxes</h2>
+						<img src="images/css-blocks.jpg" alt="">
+					</section>
+					<section>
+						<h2>CSS Box</h2>
+						<img src="images/css-box.png" alt="">
+					</section>
+					<section>
+						<h2><strong>Practice:</strong> Styling a Web Page</h2>
+						<h2><a href="http://j.mp/htxcss" target="_blank">http://j.mp/htxcss</a></h2>
+					</section>
+					<section>
+						<img src="images/css-congrats.gif" alt="">
+						<h2><strong>Congrats</strong> you're so stylish!</h2>
+					</section>
+					<section>
+						<h2><strong>CSS</strong> Summary</h2>
+						<ul>
+							<li class="fragment">CSS creates <strong>STYLE</strong> for the web (think Word)</li>
+							<li class="fragment">CSS is made up of <strong>SELECTORS</strong></li>
+							<li class="fragment">CSS <em>selectors</em> have <strong>DECLARATIONS</strong></li>
+							<li class="fragment">CSS <em>declarations</em> have <strong>PROPERTIES</strong> and <strong>VALUES</strong> </li>
+							<li class="fragment">CSS works in a <strong>BOX</strong></li>
+						</ul>
+					</section>
+				</section>
+
+				<!-- Google Chrome Inspector -->
+				<section>
+					<section>
+						<img src="images/sherlock.gif" alt="Sherlock Holmes">
+						<h1>Inspector</h1>
+						<p><em>Google Chrome Web Inspector</em></p>
+					</section>
+					<section>
+						<h2>Read and Manipulate the Code on <strong>ANY</strong> Website</h2>
+						<img src="images/inspector-panel.png" alt="">
+					</section>
+					<section>
+						<img src="images/inspector-dive.gif" alt="">
+						<h3><strong>Practice:</strong> Let's Dive Right In!</h3>
+					</section>
+					<section>
+						<img src="images/inspector-thumbsup.gif" alt="">
+						<h2><strong>Congrats</strong> you're a pro!</h2>
+					</section>
+					<section>
+						<h2><strong>Inspector</strong> Summary</h2>
+						<ul>
+							<li class="fragment">The inspector works on <strong>ANY</strong> website</li>
+							<li class="fragment">The inspector <strong>VIEWS</strong> the code</li>
+							<li class="fragment">The inspector can <strong>MANIPULATE</strong> the code</li>
+						</ul>
+					</section>
+				</section>
+
+				<!-- Frameworks -->
+				<section>
+					<section>
+						<img src="images/framework-lego.gif" alt="Infinite loop of legos being built">
+						<h1>Framework</h1>
+						<p><em>Building Blocks for the Web</em></p>
+					</section>
+					<section>
+						<h2>Pre-Written Code</h2>
+						<p>A <strong>FRAMEWORK</strong> is a collection of <em>pre-written code</em> to help you create a project <em>quickly</em>.</p>
+						<img src="images/framework-samples.jpg" alt="">
+					</section>
+					<section>
+						<h2>What <strong>FEATURES</strong> do most websites have in common?</h2>
+						<p><em>*This is NOT rhetorical.</em></p>
+					</section>
+					<section>
+						<img src="images/framework-buttons.jpg" alt="">
+						<h2>Buttons</h2>
+					</section>
+					<section>
+						<img src="images/framework-grid.jpg" alt="">
+						<h2>Grids</h2>
+					</section>
+					<section>
+						<img src="images/framework-foundation.jpg" alt="">
+						<a href="http://foundation.zurb.com" target="_blank">http://foundation.zurb.com</a>
+					</section>
+					<section>
+						<h2><strong>Practice:</strong> Let's see what Foundation can offer!</h2>
+						<a href="http://j.mp/htxframework" target="_blank">http://j.mp/htxframework</a>
+					</section>
+					<section>
+						<img src="images/framework-congrats.gif" alt="">
+						<h2><strong>Congrats</strong> you're a master builder!</h2>
+					</section>
+					<section>
+						<h2><strong>Framework</strong> Summary</h2>
+						<ul>
+							<li class="fragment">A framework is <strong>PRE-WRITTEN CODE</strong></li>
+							<li class="fragment">A framework help you get <strong>STARTED</strong></li>
+							<li class="fragment">A framework keeps everything <strong>CONSISTENT</strong></li>
+						</ul>
+					</section>
+				</section>
+
+				<!-- Conclusion -->
+
+				<section>
+					<h1>Questions &amp; <strong>Answers</strong></h1>
+				</section>
+
+				<section>
+					<h1><strong>Thanks!</strong></h1>
+					<p><em>We Create Developers:</em><br>Learn more at <a href="http://www.makersquare.com/part-time" target="_blank">http://www.makersquare.com/</a></p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<div class="share-reveal">
+
+			<strong class="share-reveal__twitter">
+				<a href="https://twitter.com/joshmedeski" class="twitter-follow-button" data-show-count="false">Follow @JoshMedeski</a>
+				<a href="https://twitter.com/MakerSquare" class="twitter-follow-button" data-show-count="false">Follow @MakerSquare</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</strong>
+
+			<a href="http://www.makersquare.com/" class="share-reveal__button">Learn more about our program</a>
+		</div>
+
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+				{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+				{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+	</html>

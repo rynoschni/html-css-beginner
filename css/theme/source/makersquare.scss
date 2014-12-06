@@ -1,0 +1,75 @@
+/**
+ * MakerSquare theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+
+// Colors
+$blue: #2380e2;
+$blue-dark: #012e51;
+$blue-light: #cee2f7;
+$green: #82b300;
+$red: #c2185b;
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: $blue-dark;
+
+$mainFont: 'Open Sans', sans-serif;
+$linkColor: $blue;
+$linkColorHover: $green;
+$headingFont: 'Montserrat', Impact, sans-serif;
+$headingColor: $blue-light;
+$headingTextShadow: none;
+$headingLetterSpacing: -0.03em;
+$headingTextTransform: none;
+$selectionBackgroundColor: #e7ad52;
+$mainFontSize: 30px;
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+body {
+  background: url(../../images/bg.jpg) repeat;
+}
+
+.reveal .progress span {
+  background: $green;
+}
+
+.share-reveal {
+  display: block;
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  margin-left: -230px;
+  z-index: 20;
+}
+
+.share-reveal__button {
+  position: relative;
+  background: $red;
+  padding: 4px 10px;
+  font-weight: bold;
+  font: normal bold normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
+  top: -5px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+strong {
+  color: $red;
+}
