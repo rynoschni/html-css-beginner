@@ -21,7 +21,7 @@ body {
 
 ::selection {
   color: #fff;
-  background: #e7ad52;
+  background: #d8ae64;
   text-shadow: none; }
 
 /*********************************************
@@ -48,7 +48,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #01a9b4;
+  color: #d8ae64;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -63,7 +63,7 @@ body {
 
 .reveal .roll span:after {
   color: #fff;
-  background: #016268; }
+  background: #bf8c30; }
 
 /*********************************************
  * IMAGES
@@ -81,7 +81,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #01a9b4;
+  border-color: #d8ae64;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -89,19 +89,19 @@ body {
  *********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: #01a9b4; }
+  border-right-color: #d8ae64; }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: #01a9b4; }
+  border-left-color: #d8ae64; }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: #01a9b4; }
+  border-bottom-color: #d8ae64; }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: #01a9b4; }
+  border-top-color: #d8ae64; }
 
 .reveal .controls div.navigate-left.enabled:hover {
   border-right-color: #000000; }
@@ -122,7 +122,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #01a9b4;
+  background: #d8ae64;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
@@ -133,10 +133,16 @@ body {
  * SLIDE NUMBER
  *********************************************/
 .reveal .slide-number {
-  color: #01a9b4; }
+  color: #d8ae64; }
+
+body {
+  background: url(../../images/bg.png) repeat; }
+
+.reveal a {
+  font-style: italic; }
 
 .reveal .progress span {
-  background: #92bb44; }
+  background: #fe5c63; }
 
 .share-reveal {
   display: block;
@@ -148,7 +154,7 @@ body {
 
 .share-reveal__button {
   position: relative;
-  background: #fe5c63;
+  background: #d8ae64;
   padding: 4px 10px;
   font-weight: bold;
   font: normal bold normal 11px/18px 'Helvetica Neue',Arial,sans-serif;

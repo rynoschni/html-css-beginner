@@ -17,6 +17,7 @@
 
 // Colors
 $pink: #fe5c63;
+$gold: #d8ae64;
 $blue: #01a9b4;
 $green: #92bb44;
 $maroon: #8b0036;
@@ -26,14 +27,14 @@ $backgroundColor: #ffffff;
 
 $mainFont: 'Open Sans', sans-serif;
 $mainColor: #000000;
-$linkColor: $blue;
+$linkColor: $gold;
 $linkColorHover: #000000;
 $headingFont: 'Montserrat', Impact, sans-serif;
 $headingColor: #000000;
 $headingTextShadow: none;
 $headingLetterSpacing: -0.03em;
 $headingTextTransform: none;
-$selectionBackgroundColor: #e7ad52;
+$selectionBackgroundColor: $gold;
 $mainFontSize: 30px;
 
 
@@ -42,11 +43,15 @@ $mainFontSize: 30px;
 // ---------------------------------------------
 
 body {
-  // background: url(../../images/bg.jpg) repeat;
+  background: url(../../images/bg.png) repeat;
+}
+
+.reveal a {
+  font-style: italic;
 }
 
 .reveal .progress span {
-  background: $green;
+  background: $pink;
 }
 
 .share-reveal {
@@ -60,7 +65,7 @@ body {
 
 .share-reveal__button {
   position: relative;
-  background: $pink;
+  background: $gold;
   padding: 4px 10px;
   font-weight: bold;
   font: normal bold normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
