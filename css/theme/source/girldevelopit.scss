@@ -12,8 +12,7 @@
 
 
 // Include theme-specific fonts
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400italic,700italic,700,400);
 
 // Colors
 $pink: #fe5c63;
@@ -25,11 +24,11 @@ $maroon: #8b0036;
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #ffffff;
 
-$mainFont: 'Open Sans', sans-serif;
+$mainFont: 'Roboto', sans-serif;
 $mainColor: #000000;
 $linkColor: $gold;
 $linkColorHover: #000000;
-$headingFont: 'Montserrat', Impact, sans-serif;
+$headingFont: 'Roboto', sans-serif;
 $headingColor: #000000;
 $headingTextShadow: none;
 $headingLetterSpacing: -0.03em;
