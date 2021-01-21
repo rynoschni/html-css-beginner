@@ -52,7 +52,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #d8ae64;
+  color: #CD4E76;
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
@@ -62,7 +62,7 @@ body {
 }
 
 .reveal a:not(.image):hover {
-  color: #000000;
+  color: #FADE65;
   text-shadow: none;
   border: none;
 }
@@ -164,7 +164,7 @@ body {
 }
 
 .reveal .progress span {
-  background: #fe5c63;
+  background: #CD4E76;
 }
 
 .share-reveal {
@@ -189,7 +189,7 @@ body {
 }
 
 strong {
-  color: #fe5c63;
+  color: #49A9A3;
 }
 
 /* .center-block {
